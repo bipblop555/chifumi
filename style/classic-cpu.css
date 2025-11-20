@@ -1,0 +1,44 @@
+h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem;
+}
+.wrapper{
+    justify-content: space-evenly;
+    display: flex;
+}
+div.pierre,
+div.ciseaux{
+    margin-top: 5rem;
+}
+div.pierre,
+div.ciseaux,
+div.papier{
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 50%;
+    padding: 1rem;
+}
+div.pierre:hover,
+div.ciseaux:hover,
+div.papier:hover{
+    cursor: pointer;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+img{
+    width: 200px;
+    height: 200px;
+}
+button#play {
+    text-align: center;
+    margin: 2rem auto;
+    display: block;
+    padding: 1rem 3rem;
+    background: white;
+    border: none;
+    font-size: 1.2rem;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+button#play:hover{
+    cursor: pointer;
+}
