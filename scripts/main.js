@@ -7,9 +7,9 @@ rules = [
 
 window.addEventListener("load", () => {
     localStorage.clear();
-    localStorage.setItem("move", 0);
+    localStorage.setItem("move", 3);
 
-    var $playBtn = document.getElementById("playBtn");
+    var $playBtn = document.getElementById("play");
 
     var $rock = document.getElementById("rock");
     var $paper = document.getElementById("paper");
