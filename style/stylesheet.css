@@ -7,10 +7,9 @@ body{
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: #A7D5F2;
 }
 h1{
-    color: white;
+    color: black;
     position: absolute;
     top: 5%;
     left: 50%;
@@ -23,9 +22,9 @@ h2{
     padding: 50px;
     position: absolute;
     text-align: center;
-    color: white;
+    color: black;
     z-index: 9998;
-    background-color: white;
+    background-color: black;
     font-size: 50px;
     text-transform: uppercase;
     width: 500px;
@@ -46,7 +45,7 @@ h6{
     display: flex;
     text-transform: uppercase;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 h3{
     margin-left: -90px;
@@ -123,12 +122,12 @@ img{
     border: 10px solid #F2E6A7;
 }
 button{
+    border: none;
     z-index: 1;
     color: white;
     font-weight: 700;
     text-transform: uppercase;
-    background-color:#F2D750;
-    border: 1px solid lightgray;
+    background-color:red;
     border-radius: 15px;
     padding: 10px 100px;
     position: absolute;
